@@ -6,9 +6,9 @@ pygame.mixer.init(frequency=44100)
 
 class MorseCode():
     def __init__(self, prompt):
-        self.dot = pygame.mixer.Sound("morse_dot.wav")
+        self.dot = pygame.mixer.Sound("sounds/morse_dot.wav")
         self.dot.set_volume(0.2)
-        self.dash = pygame.mixer.Sound("morse_dash.wav")
+        self.dash = pygame.mixer.Sound("sounds/morse_dash.wav")
         self.dash.set_volume(0.2)
         self.output = ''
         self.prompt = prompt
