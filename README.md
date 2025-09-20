@@ -17,6 +17,8 @@ Choose a number to proceed:
   3. Quit
 
 Your choice: 1
+
 Enter your text: SOS
+
 Output: ... --- ...
 
